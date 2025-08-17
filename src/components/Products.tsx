@@ -38,9 +38,6 @@ const Products = () => {
     <section id="produits" className="py-20 bg-muted/30">
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
-            Nos Produits
-          </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Solutions Complètes de Marquage
           </h2>

@@ -41,9 +41,6 @@ const Contact = () => {
     <section id="contact" className="py-20">
       <div className="container">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
-            Contact
-          </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Nous Contacter
           </h2>
