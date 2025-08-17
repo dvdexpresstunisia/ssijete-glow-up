@@ -23,24 +23,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#accueil" className="text-foreground hover:text-primary transition-colors">
-            Accueil
-          </a>
-          <a href="#produits" className="text-foreground hover:text-primary transition-colors">
-            Produits
-          </a>
-          <a href="#services" className="text-foreground hover:text-primary transition-colors">
-            Services
-          </a>
-          <a href="#maintenance" className="text-foreground hover:text-primary transition-colors">
-            Maintenance
-          </a>
-          <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-            Contact
-          </a>
-        </nav>
+        {/* Desktop Navigation - Removed */}
 
         {/* Contact Info & Mobile Menu */}
         <div className="flex items-center space-x-4">
@@ -67,58 +50,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div className="md:hidden border-t border-border">
-          <nav className="container py-4 space-y-3">
-            <a
-              href="#accueil"
-              className="block py-2 text-foreground hover:text-primary transition-colors"
-              onClick={toggleMenu}
-            >
-              Accueil
-            </a>
-            <a
-              href="#produits"
-              className="block py-2 text-foreground hover:text-primary transition-colors"
-              onClick={toggleMenu}
-            >
-              Produits
-            </a>
-            <a
-              href="#services"
-              className="block py-2 text-foreground hover:text-primary transition-colors"
-              onClick={toggleMenu}
-            >
-              Services
-            </a>
-            <a
-              href="#maintenance"
-              className="block py-2 text-foreground hover:text-primary transition-colors"
-              onClick={toggleMenu}
-            >
-              Maintenance
-            </a>
-            <a
-              href="#contact"
-              className="block py-2 text-foreground hover:text-primary transition-colors"
-              onClick={toggleMenu}
-            >
-              Contact
-            </a>
-            <div className="pt-4 border-t border-border space-y-2">
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <Phone className="w-4 h-4" />
-                <span>+216 23 20 49 39</span>
-              </div>
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <Mail className="w-4 h-4" />
-                <span>contact@ssijete.com.tn</span>
-              </div>
-            </div>
-          </nav>
-        </div>
-      )}
+      {/* Mobile Menu - Removed */}
     </header>
   );
 };
